@@ -51,6 +51,7 @@
 		}
 		
 	}
-	$objetoPHP = new Objeto();
-	echo json_encode($objetoPHP->ObtenerObjeto());
+	/*Esta sección se agrego para el segundo ejendo ejercicio */
+	$objetoPHP = new Objeto(); //se crea un objeto para poder utilizar la funcion de obtener objeto
+	echo json_encode($objetoPHP->ObtenerObjeto()); //regresa el valor del json
 ?>
